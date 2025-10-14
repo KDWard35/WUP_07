@@ -66,7 +66,13 @@ This data seems to show that Covid is killing men at a nearly 2:1 ratio when com
   
 ## Numerical results
 
+```{r}
+table1 <- xtabs(~result + Sex, data=kRdata)
+rowPerc(table1)
+colPerc(table1)
+```
 
+This data shows that 56% of those who survived the disease were women, while 44% were men. The data also shows that the percentage of women who died was 1.4% and the percentage of men who died was nearly double, at 3%.
 ## Inferential results 
 
 
