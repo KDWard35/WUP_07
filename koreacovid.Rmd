@@ -75,8 +75,13 @@ colPerc(table1)
 This data shows that 56% of those who survived the disease were women, while 44% were men. The data also shows that the percentage of women who died was 1.4% and the percentage of men who died was nearly double, at 3%.
 ## Inferential results 
 
+```{r}
+chisq.test(table1)
+chisqtestGC(table1)
+fisher.test(table1)
+```
 
-
+The data shows a p-value of 0.0009, a value small enough to show that there a statistical difference between the two groups. The data also shows an odds ratio of 2.3, which means there is a 2.3 times greater chance that a male with covid will pass away when compared to females. 
 
 ## Conclusions
 
