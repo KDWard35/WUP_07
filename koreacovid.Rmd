@@ -85,3 +85,4 @@ The data shows a p-value of 0.0009, a value small enough to show that there a st
 
 ## Conclusions
 
+ I decided to use the Cat_Cat file to help me solve solve this problem since it is a categorical~categorical problem. Plotting the data I found that there was a higher proportion of women participating and a higher proportion of men dying in the study. The data shows that 1.4 percent of women died compared to 3 percent of men dying. The data yielded a p-value of 0.0009 and an odds ratio of 2.3, which shows that men died at a rate 2.3 greater than that of women. 
